@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+
+
+<div class="page-title-area title-bg-nine">
+<div class="d-table">
+<div class="d-table-cell">
+<div class="container">
+<div class="title-item">
+<h2>Gallery</h2>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="gallery-area ptb-100">
+<div class="container">
+<div class="row">
+<div class="col-sm-6 col-lg-4">
+<div class="gallery-item">
+<a href="{% static 'img/gallery/gallery7.jpg' %}" data-lightbox="roadtrip">
+<img src="{% static 'img/gallery/gallery7.jpg' %}" alt="Gallery">
+<i class="icofont-eye"></i>
+</a>
+</div>
+</div>
+<div class="col-sm-6 col-lg-4">
+<div class="gallery-item">
+<a href="{% static 'img/gallery/gallery8.jpg' %}" data-lightbox="roadtrip">
+<img src="{% static 'img/gallery/gallery8.jpg' %}" alt="Gallery">
+<i class="icofont-eye"></i>
+</a>
+</div>
+</div>
+<div class="col-sm-6 col-lg-4">
+<div class="gallery-item">
+<a href="{% static 'img/gallery/gallery9.jpg' %}" data-lightbox="roadtrip">
+<img src="{% static 'img/gallery/gallery9.jpg' %}" alt="Gallery">
+<i class="icofont-eye"></i>
+</a>
+</div>
+</div>
+<div class="col-sm-6 col-lg-4">
+<div class="gallery-item">
+<a href="{% static 'img/gallery/gallery10.jpg' %}" data-lightbox="roadtrip">
+<img src="{% static 'img/gallery/gallery10.jpg' %}" alt="Gallery">
+<i class="icofont-eye"></i>
+</a>
+</div>
+</div>
+<div class="col-sm-6 col-lg-4">
+<div class="gallery-item">
+<a href="{% static 'img/gallery/gallery11.jpg' %}" data-lightbox="roadtrip">
+<img src="{% static 'img/gallery/gallery11.jpg' %}" alt="Gallery">
+<i class="icofont-eye"></i>
+</a>
+</div>
+</div>
+<div class="col-sm-6 col-lg-4">
+<div class="gallery-item">
+<a href="{% static 'img/gallery/gallery12.jpg' %}" data-lightbox="roadtrip">
+<img src="{% static 'img/gallery/gallery12.jpg' %}" alt="Gallery">
+<i class="icofont-eye"></i>
+</a>
+</div>
+</div>
+</div>
+<div class="pagination-area">
+<ul>
+<li>
+<a href="gallery.html">Prev</a>
+</li>
+<li>
+<a href="gallery.html">1</a>
+</li>
+<li>
+<a class="active" href="#">2</a>
+</li>
+<li>
+<a href="gallery-3.html">3</a>
+</li>
+<li>
+<a href="gallery-4.html">4</a>
+</li>
+<li>
+<a href="gallery-3.html">Next</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+{% endblock %}

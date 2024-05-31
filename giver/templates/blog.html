@@ -1,0 +1,203 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+
+<div class="page-title-area title-bg-six">
+<div class="d-table">
+<div class="d-table-cell">
+<div class="container">
+<div class="title-item">
+<h2>Blog</h2>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<section class="blog-area three ptb-100">
+<div class="container">
+<div class="row">
+<div class="col-sm-6 col-lg-4">
+<div class="blog-item">
+<div class="top">
+<a href="{% url 'blog1' %}">
+<img src="{% static 'img/blog/blog1.jpg' %}" alt="Blog">
+</a>
+</div>
+<div class="bottom">
+<ul>
+<li>
+<i class="icofont-calendar"></i>
+<span>5 July, 2024</span>
+</li>
+<li>
+<i class="icofont-user-alt-3"></i>
+<span>By:</span>
+<a href="#">Harry</a>
+</li>
+</ul>
+<h3>
+<a href="{% url 'blog1' %}">10 Ways to Make a Difference: How Small Actions Can Create Big Change</a>
+</h3>
+<p>In a world that often feels overwhelming with its challenges, it's easy to underestimate the power of small actions.</p>
+<a class="blog-btn" href="{% url 'blog1' %}">Read More</a>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-lg-4">
+<div class="blog-item">
+<div class="top">
+<a href="{% url 'blog2' %}">
+<img src="{% static 'img/blog/blog2.jpg' %}" alt="Blog">
+</a>
+</div>
+<div class="bottom">
+<ul>
+<li>
+<i class="icofont-calendar"></i>
+<span>2 July, 2024</span>
+</li>
+<li>
+<i class="icofont-user-alt-3"></i>
+<span>By:</span>
+<a href="#">Harry</a>
+</li>
+</ul>
+<h3>
+<a href="{% url 'blog2' %}">The Power of Community: How Local Efforts Are Transforming Our City</a>
+</h3>
+<p>In cities around the world, local efforts driven by passionate individuals and groups are making a profound impact on the lives of residents.</p>
+<a class="blog-btn" href="{% url 'blog2' %}">Read More</a>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-lg-4">
+<div class="blog-item">
+<div class="top">
+<a href="{% url 'blog3' %}">
+<img src="{% static 'img/blog/blog3.jpg' %}" alt="Blog">
+</a>
+</div>
+<div class="bottom">
+<ul>
+<li>
+<i class="icofont-calendar"></i>
+<span>11 July, 2024</span>
+</li>
+<li>
+<i class="icofont-user-alt-3"></i>
+<span>By:</span>
+<a href="#">Harry</a>
+</li>
+</ul>
+<h3>
+<a href="{% url 'blog3' %}">Global Issues, Local Solutions: How Our Programs Address Worldwide Challenges</a>
+</h3>
+<p>In a world where global challenges are increasingly interconnected, local initiatives play a crucial role in providing effective</p>
+<a class="blog-btn" href="{% url 'blog3' %}">Read More</a>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-lg-4">
+<div class="blog-item">
+<div class="top">
+<a href="{% url 'blog4' %}">
+<img src="{% static 'img/blog/blog4.jpg' %}" alt="Blog">
+</a>
+</div>
+<div class="bottom">
+<ul>
+<li>
+<i class="icofont-calendar"></i>
+<span>15 July, 2024</span>
+</li>
+<li>
+<i class="icofont-user-alt-3"></i>
+<span>By:</span>
+<a href="#">Harry</a>
+</li>
+</ul>
+<h3>
+<a href="{% url 'blog4' %}">Sustainable Giving: How to Make Your Donations Go Further</a>
+</h3>
+<p>Before making a donation, it’s crucial to understand how your contribution will be used and what impact it will have.</p>
+<a class="blog-btn" href="{% url 'blog4' %}">Read More</a>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-lg-4">
+<div class="blog-item">
+<div class="top">
+<a href="{% url 'blog5' %}">
+<img src="{% static 'img/blog/blog5.jpg' %}" alt="Blog">
+</a>
+</div>
+<div class="bottom">
+<ul>
+<li>
+<i class="icofont-calendar"></i>
+<span>18 July, 2024</span>
+</li>
+<li>
+<i class="icofont-user-alt-3"></i>
+<span>By:</span>
+<a href="#">Harry</a>
+</li>
+</ul>
+<h3>
+<a href="{% url 'blog5' %}">Volunteer Experiences: Personal Journeys of Giving Back</a>
+</h3>
+<p>Volunteering can also be a valuable opportunity for personal and professional development. Volunteers often acquire new skills</p>
+<a class="blog-btn" href="{% url 'blog5' %}">Read More</a>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-lg-4">
+<div class="blog-item">
+<div class="top">
+<a href="{% url 'blog6' %}">
+<img src="{% static 'img/blog/blog6.jpg' %}" alt="Blog">
+</a>
+</div>
+<div class="bottom">
+<ul>
+<li>
+<i class="icofont-calendar"></i>
+<span>22 July, 2024</span>
+</li>
+<li>
+<i class="icofont-user-alt-3"></i>
+<span>By:</span>
+<a href="#">Harry</a>
+</li>
+</ul>
+<h3>
+<a href="{% url 'blog6' %}">Educational Initiatives: How We're Empowering the Next Generation</a>
+</h3>
+<p>Early childhood education is critical in shaping a child's cognitive, social, and emotional development. Research shows that</p>
+<a class="blog-btn" href="{% url 'blog6' %}">Read More</a>
+</div>
+</div>
+</div>
+</div>
+<div class="pagination-area">
+<ul>
+<li>
+<a class="active" href="#">1</a>
+</li>
+<li>
+<a href="{% url 'nextblog' %}">2</a>
+</li>
+<li>
+<a href="{% url 'nextblog' %}">Next</a>
+</li>
+</ul>
+</div>
+</div>
+</section>
+
+
+{% endblock %}

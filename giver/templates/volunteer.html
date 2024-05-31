@@ -1,0 +1,119 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Volunteer CharityEcho{% endblock %}
+{% block meta_description %}{% endblock %}
+
+{% block content %}
+
+
+
+<div class="page-title-area title-bg-eight">
+<div class="d-table">
+<div class="d-table-cell">
+<div class="container">
+<div class="title-item">
+<h2>Volunteer With CharityEcho</h2>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+{% if alert_title %}
+<!-- Alert container -->
+<div class="alert">
+	<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+	<!-- Alert title and message from the context -->
+	<h2 class="text-dark textee text-center">Thanks {{ full_name }}</h2>
+	<p class="text-center">{{ alert_message }}</p>
+</div>
+{% endif %}
+
+<br><br>
+
+
+<div class="contact-area pb-70">
+<div class="container">
+<form id="contactForm" action="{% url 'volunteer' %}" method="post" class="was-validated">
+	{% csrf_token %}
+	<center><h2>Thank You For Your Interest In Becoming A Volunteer</h2>
+	<p>Please kindly fill below out the form and we will get back to you as soon as possible</p></center>
+	<div class="row">
+	<div class="col-lg-6">
+	<div class="form-group">
+	<label>
+	<i class="icofont-user-alt-3"></i>
+	</label>
+	<input type="text" name="full_name" id="name" class="form-control" placeholder="Full name" required="required" required data-error="Please enter your name">
+	<div class="help-block with-errors"></div>
+	</div>
+	</div>
+	<div class="col-lg-6">
+	<div class="form-group">
+	<label>
+	<i class="icofont-ui-email"></i>
+	</label>
+	<input type="email" name="email_address" id="email" class="form-control" placeholder="Email address" required="required" required data-error="Please enter your email">
+	<div class="help-block with-errors"></div>
+	</div>
+	</div>
+	<div class="col-lg-6">
+	<div class="form-group">
+	<label>
+	<i class="icofont-ui-call"></i>
+	</label>
+	<input type="text" name="phone_number" id="phone_number" placeholder="Phone" required="required" required data-error="Please enter your phone number" class="form-control">
+	<div class="help-block with-errors"></div>
+	</div>
+	</div>
+	<div class="col-lg-6">
+	<div class="form-group">
+	<label>
+	<i class="icofont-notepad"></i>
+	</label>
+	<input type="text" name="address" id="msg_subject" class="form-control" placeholder="Where are you from?" required="required" required data-error="What is your nationality and your home address">
+	<div class="help-block with-errors"></div>
+	</div>
+	</div>
+	<div class="col-lg-6">
+	<div class="form-group">
+	<label>
+	<i class="icofont-notepad"></i>
+	</label>
+	<input type="text" name="your_age" id="age" class="form-control" placeholder="How old are you?" required="required" required data-error="How old are you">
+	<div class="help-block with-errors"></div>
+	</div>
+	</div>
+	<div class="col-lg-6">
+	<div class="form-group">
+	<label>
+	<i class="icofont-notepad"></i>
+	</label>
+	<input type="text" name="your_profession" id="profession" class="form-control" placeholder="Your Profession" required="required" required data-error="What do you do for a living?">
+	<div class="help-block with-errors"></div>
+	</div>
+	</div>
+	<div class="col-lg-12">
+	<div class="form-group">
+	<label>
+	<i class="icofont-comment"></i>
+	</label>
+	<textarea name="message" class="form-control" id="message" cols="30" rows="8" placeholder="Why do you want to Volunteer? " required="required" required data-error="Tell us why you want to volunter"></textarea>
+	<div class="help-block with-errors"></div>
+	</div>
+	</div>
+	<div class="col-lg-12">
+	<button type="submit" class="btn common-btn">
+	SUBMIT
+	</button>
+	<div id="msgSubmit" class="h3 text-center hidden"></div>
+	<div class="clearfix"></div>
+	</div>
+	</div>
+</form>
+</div>
+</div>
+
+
+{% endblock %}

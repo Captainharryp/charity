@@ -1,0 +1,42 @@
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.index, name='index'),
+    path('about.html', views.about, name='about'),
+    path('about.html', views.about, name='about'),
+    path('contact.html', views.contact, name='contact'),
+    path('blog.html', views.blog, name='blog'),
+    path('next_blog.html', views.nextblog, name='nextblog'),
+    path('blog-details.html', views.blogs, name='blogs'),
+    path('faq.html', views.faq, name='faq'),
+    path('privacy-policy.html', views.privacy, name='privacy'),
+    path('terms-conditions.html', views.terms, name='terms'),
+    path('gallery.html', views.gallery, name='gallery'),
+    path('events.html', views.event, name='event'),
+    path('event-details.html', views.events, name='events'),
+    path('donations.html', views.donation, name='donation'),
+    path('donation-details.html', views.donations, name='donations'),
+    path('gallery-2.html', views.gallery2, name='gallery2'),
+    path('gallery-3.html', views.gallery3, name='gallery3'),
+    path('gallery-4.html', views.gallery4, name='gallery4'),
+    path('volunteer.html', views.volunteer, name='volunteer'),
+    path('blog_1.html', views.blog1, name='blog1'),
+    path('blog_2.html', views.blog2, name='blog2'),
+    path('blog_3.html', views.blog3, name='blog3'),
+    path('blog_4.html', views.blog4, name='blog4'),
+    path('blog_5.html', views.blog5, name='blog5'),
+    path('blog_6.html', views.blog6, name='blog6'),
+    path('blog_7.html', views.blog7, name='blog7'),
+    path('blog_8.html', views.blog8, name='blog8'),
+    path('blog_9.html', views.blog9, name='blog9'),
+    path('blog_10.html', views.blog10, name='blog10'),
+    path('blog_11.html', views.blog11, name='blog11'),
+    path('blog_12.html', views.blog12, name='blog12'),
+    path('event_1.html', views.event1, name='event1'),
+    path('event_2.html', views.event2, name='event2'),
+    path('event_3.html', views.event3, name='event3'),
+    path('event_4.html', views.event4, name='event4'),
+
+
+]

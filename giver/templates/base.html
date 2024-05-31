@@ -1,0 +1,330 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+
+<link rel="stylesheet" href="{% static 'css/icofont.min.css' %}">
+
+<link rel="stylesheet" href="{% static 'css/meanmenu.css' %}">
+
+<link rel="stylesheet" href="{% static 'css/modal-video.min.css' %}">
+
+<link rel="stylesheet" href="{% static 'fonts/flaticon.css' %}">
+
+<link rel="stylesheet" href="{% static 'css/animate.min.css' %}">
+
+<link rel="stylesheet" href="{% static 'css/lightbox.min.css' %}">
+
+<link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+<link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
+
+<link rel="stylesheet" href="{% static 'css/odometer.min.css' %}">
+
+<link rel="stylesheet" href="{% static 'css/nice-select.min.css' %}">
+
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+<link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+
+<link rel="stylesheet" href="{% static 'css/theme-dark.css' %}">
+<title>{% block title %}CharityEcho - Fundraising and Charity HTML Template{% endblock %}</title>
+<link rel="icon" type="image/png" href="{% static 'img/favicon.png' %}">
+<meta name="description" content="{% block meta_description %}CharityEcho - A charity website that have a mission of helping people{% endblock %}">
+</head>
+<body>
+
+<div class="loader">
+<div class="d-table">
+<div class="d-table-cell">
+<div class="pre-box-one">
+<div class="pre-box-two"></div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="header-area">
+<div class="container">
+<div class="row">
+<div class="col-lg-4">
+<div class="left">
+<ul>
+<li>
+<i class="icofont-location-pin"></i>
+<a href="{% url 'volunteer' %}">Become a Volunteer</a>
+</li>
+<li>
+<i class="icofont-ui-call"></i>
+<a href="tel:+44 7456 606180">+44 7456 606180</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-lg-8">
+<div class="right">
+<ul>
+<li>
+<span>Follow Us:</span>
+</li>
+<li>
+<a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+<i class="icofont-facebook"></i>
+</a>
+</li>
+<li>
+<a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+<i class="icofont-twitter"></i>
+</a>
+</li>
+<li>
+<a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer"> 
+<i class="icofont-youtube-play"></i>
+</a>
+</li>
+<li>
+<a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+<i class="icofont-instagram"></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="navbar-area sticky-top">
+
+<div class="mobile-nav">
+<a href="{% url 'index' %}" class="logo">
+<img src="{% static 'img/logo-two.png' %}" alt="Logo">
+</a>
+</div>
+
+<div class="main-nav">
+<div class="container">
+<nav class="navbar navbar-expand-md navbar-light">
+<a class="navbar-brand" href="{% url 'index' %}">
+<img src="{% static 'img/logo.png' %}" class="logo-one" alt="Logo">
+<img src="{% static 'img/logo-two.png' %}" class="logo-two" alt="Logo">
+</a>
+<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+<ul class="navbar-nav">
+<li class="nav-item">
+<a href="{% url 'index' %}" class="nav-link dropdown-toggle">Home</a>
+</li>
+<li class="nav-item">
+<a href="{% url 'about' %}" class="nav-link">About</a>
+</li>
+<li class="nav-item">
+<a href="{% url 'event1' %}" class="nav-link dropdown-toggle">Events</a>
+</li>
+<li class="nav-item">
+<a href="{% url 'blog' %}" class="nav-link dropdown-toggle">Blog</a>
+</li>
+<li class="nav-item">
+<a href="{% url 'contact' %}" class="nav-link">Contact</a>
+</li>
+</ul>
+<div class="side-nav">
+<a class="donate-btn" href="{% url 'donation' %}">
+Donate
+<i class="icofont-heart-alt"></i>
+</a>
+</div>
+</div>
+</nav>
+</div>
+</div>
+</div>
+
+
+{% block content %}
+
+{% endblock %}
+
+
+
+<footer class="footer-area pt-100">
+<div class="container">
+<div class="row">
+<div class="col-sm-6 col-lg-3">
+<div class="footer-item">
+<div class="footer-logo">
+<a class="logo" href="{% url 'index' %}">
+<img src="{% static 'img/logo-two.png' %}" alt="Logo">
+</a>
+<p>We are dedicated to reaching out to schools, hospitals, and prisons, providing essential support to those in need, and working tirelessly to eradicate poverty, reduce hunger, and alleviate hardship.</p>
+<ul>
+<li>
+<a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+<i class="icofont-facebook"></i>
+</a>
+</li>
+<li>
+<a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+<i class="icofont-twitter"></i>
+</a>
+</li>
+<li>
+<a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+<i class="icofont-youtube-play"></i>
+</a>
+</li>
+<li>
+<a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+<i class="icofont-instagram"></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-lg-3">
+<div class="footer-item">
+<div class="footer-links">
+<h3>Quick links</h3>
+<ul>
+<li>
+<a href="{% url 'about' %}">
+<i class="icofont-simple-right"></i>
+About
+</a>
+</li>
+<li>
+<a href="{% url 'blog' %}">
+<i class="icofont-simple-right"></i>
+Blog
+</a>
+</li>
+<li>
+<a href="{% url 'event' %}">
+<i class="icofont-simple-right"></i>
+Events
+</a>
+</li>
+<li>
+<a href="{% url 'donation' %}">
+<i class="icofont-simple-right"></i>
+Ways to Donate
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-lg-3">
+<div class="footer-item">
+<div class="footer-links">
+<h3>Quick links 2</h3>
+<ul>
+<li>
+<a href="{% url 'faq' %}">
+<i class="icofont-simple-right"></i>
+Faq
+</a>
+</li>
+<li>
+<a href="{% url 'gallery' %}">
+<i class="icofont-simple-right"></i>
+Gallery
+</a>
+</li>
+<li>
+<a href="{% url 'privacy' %}">
+<i class="icofont-simple-right"></i>
+Privacy Policy
+</a>
+</li>
+<li>
+<a href="{% url 'terms' %}">
+<i class="icofont-simple-right"></i>
+Terms of Use
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-lg-3">
+<div class="footer-item">
+<div class="footer-contact">
+<h3>Contact info</h3>
+<div class="contact-inner">
+<ul>
+<li>
+<i class="icofont-location-pin"></i>
+<a href="#">22, Dolphin street, New Heaven</a>
+</li>
+<li>
+<i class="icofont-ui-call"></i>
+<a href="tel:+2348029510173">+2348029510173</a>
+</li>
+</ul>
+</div>
+<div class="contact-inner">
+<ul>
+<li>
+<i class="icofont-location-pin"></i>
+<a href="#">180 Downing Road, Essex, London, United Kingdom</a>
+</li>
+<li>
+<i class="icofont-ui-call"></i>
+<a href="tel:+44 7456 606180">+44 7456 606180</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="copyright-area">
+<p>Copyright @<script>document.write(new Date().getFullYear())</script> CharityEcho. All Rights Reserved</p>
+</div>
+</div>
+</footer>
+
+
+<div class="go-top">
+<i class="icofont-arrow-up"></i>
+<i class="icofont-arrow-up"></i>
+</div>
+
+
+<script src="{% static 'js/jquery.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+
+<script src="{% static 'js/form-validator.min.js' %}"></script>
+
+<!--<script src="{% static 'js/contact-form-script.js' %}"></script>-->
+
+<script src="{% static 'js/jquery.ajaxchimp.min.js' %}"></script>
+
+<script src="{% static 'js/jquery.meanmenu.js' %}"></script>
+
+<script src="{% static 'js/jquery-modal-video.min.js' %}"></script>
+
+<script src="{% static 'js/wow.min.js' %}"></script>
+
+<script src="{% static 'js/lightbox.min.js' %}"></script>
+
+<script src="{% static 'js/owl.carousel.min.js' %}"></script>
+
+<script src="{% static 'js/odometer.min.js' %}"></script>
+<script src="{% static 'js/jquery.appear.min.js' %}"></script>
+
+<script src="{% static 'js/jquery.nice-select.min.js' %}"></script>
+
+<script src="{% static 'js/custom.js' %}"></script>
+</body>
+</html>

@@ -1,0 +1,781 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+
+
+
+<div class="banner-area-two three">
+<div class="banner-slider owl-theme owl-carousel">
+<div class="banner-slider-item banner-img-four">
+<div class="d-table">
+<div class="d-table-cell">
+<div class="container">
+<div class="banner-content">
+<h1>Empowering Futures: Transforming Lives Through Education</h1>
+<p>Igniting potential, one student at a time. Join us in shaping brighter tomorrows through education</p>
+<div class="banner-btn-area">
+<a class="common-btn banner-btn" href="{% url 'volunteer' %}">Volunteer</a>
+<a class="common-btn" href="#">Donate Now</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="banner-slider-item banner-img-two">
+<div class="d-table">
+<div class="d-table-cell">
+<div class="container">
+<div class="banner-content">
+<h1>Health for All: Providing Care, One Patient at a Time</h1>
+<p>Ensuring equitable access to healthcare. Together, we heal, nurture, and restore</p>
+<div class="banner-btn-area">
+<a class="common-btn banner-btn" href="{% url 'volunteer' %}">Volunteer</a>
+<a class="common-btn" href="#">Donate Now</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="banner-slider-item banner-img-three">
+<div class="d-table">
+<div class="d-table-cell">
+<div class="container">
+<div class="banner-content">
+<h1>Breaking the Cycle: Fighting Poverty, Restoring Hope</h1>
+<p>Empowering lives, eradicating barriers. Together, we create pathways to prosperity and dignity</p>
+<div class="banner-btn-area">
+<a class="common-btn banner-btn" href="{% url 'volunteer' %}">Volunteer</a>
+<a class="common-btn" href="#">Donate Now</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="banner-slider-item banner-img-five">
+<div class="d-table">
+<div class="d-table-cell">
+<div class="container">
+<div class="banner-content">
+<h1>Building Stronger Communities: Together, We Make a Difference</h1>
+<p>Uniting hearts, bridging gaps. Our community thrives when we stand together</p>
+<div class="banner-btn-area">
+<a class="common-btn banner-btn" href="{% url 'volunteer' %}">Volunteer</a>
+<a class="common-btn" href="#">Donate Now</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="banner-slider-item banner-img-six">
+<div class="d-table">
+<div class="d-table-cell">
+<div class="container">
+<div class="banner-content">
+<h1>Innovating for Change: Creating Solutions, Inspiring Hope</h1>
+<p>Pioneering progress, sparking change. Join us in shaping a brighter, more inclusive future</p>
+<div class="banner-btn-area">
+<a class="common-btn banner-btn" href="{% url 'volunteer' %}">Volunteer</a>
+<a class="common-btn" href="#">Donate Now</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="about-area pt-100 pb-70">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-6">
+<div class="about-img">
+<img src="{% static 'img/about/about-main1.jpg' %}" alt="About">
+</div>
+</div>
+<div class="col-lg-6">
+<div class="about-content">
+<div class="section-title">
+<span class="sub-title">About us</span>
+<h2>Our Mission and Values</h2>
+</div>
+<span class="about-span">At CharityEcho, our mission is to transform lives and uplift communities across Africa by addressing critical needs and fostering hope. We are dedicated to reaching out to schools, hospitals, and prisons, providing essential support to those in need, and working tirelessly to eradicate poverty, reduce hunger, and alleviate hardship.</span>
+<p>Our commitment is to spread the good news, empower individuals, and build a brighter future for all. Through education, healthcare, compassionate outreach, and sustainable development, we strive to create lasting positive change and ensure that every person has the opportunity to thrive.</p>
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+<div class="about-btn-area">
+<a class="common-btn about-btn" href="{% url 'volunteer' %}">Volunteer</a>
+<a class="common-btn" href="{% url 'about' %}">Read More</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="benefit-area three pt-100 pb-70">
+<div class="container">
+<div class="section-title">
+<span class="sub-title">Core features</span>
+<h2>Our Vision & Values</h2>
+<p>We are guided by values of compassion, integrity, and empowerment, striving to make a lasting impact through our dedicated efforts in education, healthcare, poverty alleviation, and community development.</p>
+</div>
+<div class="row">
+<div class="col-sm-6 col-lg-3">
+<div class="benefit-item">
+<i class="flaticon-house"></i>
+<h3>Build home</h3>
+<p>By building houses, we aim to create strong, resilient communities where families can thrive and build better futures.</p>
+</div>
+</div>
+<div class="col-sm-6 col-lg-3">
+<div class="benefit-item two">
+<i class="flaticon-hospital"></i>
+<h3>Medical facilities</h3>
+<p>We partner with communities in 35 countries to sustainably strengthen health systems and improve access to healthcare.</p>
+</div>
+</div>
+<div class="col-sm-6 col-lg-3">
+<div class="benefit-item three">
+<i class="flaticon-fast-food"></i>
+<h3>Food & water</h3>
+<p>Our commitment is to provide access to nutritious food and clean water, ensuring the fundamental needs of every individual are met.</p>
+</div>
+</div>
+<div class="col-sm-6 col-lg-3">
+<div class="benefit-item four">
+<i class="flaticon-graduation-cap"></i>
+<h3>Education facilities</h3>
+<p>To provide sustainable and life-changing interventions, which significantly reduces illiteracy in under-represented children.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<section class="donations-area three pt-100 pb-70">
+<div class="container">
+<div class="section-title">
+<span class="sub-title">Causes to care</span>
+<h2>Be the reason someone smiles</h2>
+<p>Support our cause and make a difference today. Your donation fuels our efforts to create positive change in the lives of those in need. Every contribution counts.</p>
+</div>
+<div class="row">
+<div class="col-sm-6 col-lg-4">
+<div class="donation-item">
+<div class="top">
+<a class="tags" href="#">#Medical</a>
+<h3>
+<a href="{% url 'donations' %}">Need help for treatment</a>
+</h3>
+<p>Transform lives with healthcare. Donate now to provide medical assistance and make a lasting impact.</p>
+</div>
+<div class="img">
+<img src="{% static 'img/donation/donation7.jpg' %}" alt="Donation">
+<a class="common-btn" href="{% url 'donations' %}">Donate Now</a>
+</div>
+<div class="inner">
+<div class="bottom">
+<div class="skill">
+<div class="skill-bar skill1 wow fadeInLeftBig">
+<span class="skill-count1">10%</span>
+</div>
+</div>
+<ul>
+<li>Raised: $200</li>
+<li>Goal: $20,000</li>
+</ul>
+<h4>Donated by <span>7 people</span></h4>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-lg-4">
+<div class="donation-item">
+<div class="top">
+<a class="tags" href="#">#Education</a>
+<h3>
+<a href="{% url 'donations' %}">Education for poor children</a>
+</h3>
+<p>Empower children through education. Donate now to brighten futures and create lasting change with us.</p>
+</div>
+<div class="img">
+<img src="{% static 'img/donation/donation3.jpg' %}" alt="Donation">
+<a class="common-btn" href="{% url 'donations' %}">Donate Now</a>
+</div>
+<div class="inner">
+<div class="bottom">
+<div class="skill">
+<div class="skill-bar skill2 wow fadeInLeftBig">
+<span class="skill-count2">5%</span>
+</div>
+</div>
+<ul>
+<li>Raised: $500</li>
+<li>Goal: $10,000</li>
+</ul>
+<h4>Donated by <span>12 people</span></h4>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-lg-4">
+<div class="donation-item">
+<div class="top">
+<a class="tags" href="#">#Family</a>
+<h3>
+<a href="{% url 'donations' %}">Financial help for poor</a>
+</h3>
+<p>Support families in need. Donate now to provide vital assistance and create lasting change together.</p>
+</div>
+<div class="img">
+<img src="{% static 'img/donation/donation2.jpg' %}" alt="Donation">
+<a class="common-btn" href="{% url 'donations' %}">Donate Now</a>
+</div>
+<div class="inner">
+<div class="bottom">
+<div class="skill">
+<div class="skill-bar skill3 wow fadeInLeftBig">
+<span class="skill-count3">5%</span>
+</div>
+</div>
+<ul>
+<li>Raised: $3,00</li>
+<li>Goal: $6,000</li>
+</ul>
+<h4>Donated by <span>9 people</span></h4>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-lg-4">
+<div class="donation-item">
+<div class="top">
+<a class="tags" href="#">#Funding</a>
+<h3>
+<a href="{% url 'donations' %}"> Community outreach</a>
+</h3>
+<p>Strengthen communities. Donate now to support outreach programs and foster positive change in neighborhoods.</p>
+</div>
+<div class="img">
+<img src="{% static 'img/donation/donation5.jpg' %}" alt="Donation">
+<a class="common-btn" href="{% url 'donations' %}">Donate Now</a>
+</div>
+<div class="inner">
+<div class="bottom">
+<div class="skill">
+<div class="skill-bar skill4 wow fadeInLeftBig">
+<span class="skill-count4">30%</span>
+</div>
+</div>
+<ul>
+<li>Raised: $3,00</li>
+<li>Goal: $1,000</li>
+</ul>
+<h4>Donated by <span>5 people</span></h4>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-lg-4">
+<div class="donation-item">
+<div class="top">
+<a class="tags" href="#">#Relief</a>
+<h3>
+<a href="{% url 'donations' %}">Hunger Relief</a>
+</h3>
+<p>End hunger one meal at a time. Donate now to provide food assistance and nourishment to those facing hunger.</p>
+</div>
+<div class="img">
+<img src="{% static 'img/donation/donation1.jpg' %}" alt="Donation">
+<a class="common-btn" href="{% url 'donations' %}">Donate Now</a>
+</div>
+<div class="inner">
+<div class="bottom">
+<div class="skill">
+<div class="skill-bar skill5 wow fadeInLeftBig">
+<span class="skill-count5">6%</span>
+</div>
+</div>
+<ul>
+<li>Raised: $6,00</li>
+<li>Goal: $10,000</li>
+</ul>
+<h4>Donated by <span>10 people</span></h4>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-lg-4">
+<div class="donation-item">
+<div class="top">
+<a class="tags" href="#">#Hope</a>
+<h3>
+<a href="{% url 'donations' %}">Prison visitations</a>
+</h3>
+<p>Restore hope through connection. Donate now to support prison visitation programs and make a difference.</p>
+</div>
+<div class="img">
+<img src="{% static 'img/donation/donation10.jpg' %}" alt="Donation">
+<a class="common-btn" href="{% url 'donations' %}">Donate Now</a>
+</div>
+<div class="inner">
+<div class="bottom">
+<div class="skill">
+<div class="skill-bar skill6 wow fadeInLeftBig">
+<span class="skill-count6">18%</span>
+</div>
+</div>
+<ul>
+<li>Raised: $5,00</li>
+<li>Goal: $3,000</li>
+</ul>
+<h4>Donated by <span>8 people</span></h4>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="event-area pt-100 pb-70">
+<div class="container">
+<div class="section-title">
+<span class="sub-title">Our events</span>
+<h2>Upcoming events near you</h2>
+</div>
+<div class="row align-items-center">
+<div class="col-lg-6">
+<div class="event-item">
+<img src="{% static 'img/event/event4.jpg' %}" alt="Event">
+<div class="inner">
+<h4>10 <span>Sept</span></h4>
+<h3>
+<a href="{% url 'event1' %}">Community Outreach Programs</a>
+</h3>
+<ul>
+<li>
+<i class="icofont-stopwatch"></i>
+<span>12.00pm - 5.00pm</span>
+</li>
+<li>
+<i class="icofont-location-pin"></i>
+<span>Nigeria</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="event-item-right">
+<h4>14 <span>Oct</span></h4>
+<h3>
+<a href="{% url 'event2' %}">Hospital Visitation</a>
+</h3>
+<ul>
+<li>
+<i class="icofont-stopwatch"></i>
+<span>10.00am - 2.00pm</span>
+</li>
+<li>
+<i class="icofont-location-pin"></i>
+<span>Nigeria</span>
+</li>
+</ul>
+</div>
+<div class="event-item-right">
+<h4>29 <span>Oct</span></h4>
+<h3>
+<a href="{% url 'event3' %}">Prison Visitation</a>
+</h3>
+<ul>
+<li>
+<i class="icofont-stopwatch"></i>
+<span>1.00pm - 4.00pm</span>
+</li>
+<li>
+<i class="icofont-location-pin"></i>
+<span>Nigeria</span>
+</li>
+</ul>
+</div>
+<div class="event-item-right">
+<h4>02 <span>Nov</span></h4>
+<h3>
+<a href="{% url 'event4' %}">Education Empowerment Initiative</a>
+</h3>
+<ul>
+<li>
+<i class="icofont-stopwatch"></i>
+<span>12.00pm - 5.00pm</span>
+</li>
+<li>
+<i class="icofont-location-pin"></i>
+<span>Nigeria</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<div class="counter-area pt-100 pb-70">
+<div class="container">
+<div class="row">
+<div class="col-6 col-sm-6 col-lg-3">
+<div class="counter-item">
+<i class="flaticon-index"></i>
+<h3>
+<span class="odometer" data-count="3">00</span>
+<span class="target">M</span>
+</h3>
+<p>Total fund raised</p>
+</div>
+</div>
+<div class="col-6 col-sm-6 col-lg-3">
+<div class="counter-item">
+<i class="flaticon-event"></i>
+<h3>
+<span class="odometer" data-count="50">00</span>
+<span class="target">+</span>
+</h3>
+<p>Successful events</p>
+</div>
+</div>
+<div class="col-6 col-sm-6 col-lg-3">
+<div class="counter-item">
+<i class="flaticon-charity"></i>
+<h3>
+<span class="odometer" data-count="100">00</span>
+<span class="target">+</span>
+</h3>
+<p>Worldwide volunteers</p>
+</div>
+</div>
+<div class="col-6 col-sm-6 col-lg-3">
+<div class="counter-item">
+<i class="flaticon-helping-hand"></i>
+<h3>
+<span class="odometer" data-count="50">00</span>
+<span class="target">+</span>
+</h3>
+<p>Our donner</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<section class="work-area pt-100 pb-70">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-6">
+<div class="work-content">
+<div class="section-title">
+<span class="sub-title">How we work</span>
+<h2>Transforming lives: Assess, mobilize, develop, implement, evaluate impact.</h2>
+</div>
+<ul>
+<li>
+<h3><span>01</span>Identify Needs</h3>
+<p>We conduct thorough assessments to understand the unique needs of the communities we serve.</p>
+</li>
+<li>
+<h3><span>02</span>Mobilize Resources</h3>
+<p>We gather support from donors, volunteers, and partners to provide the necessary resources for our projects.</p>
+</li>
+<li>
+<h3><span>03</span>Develop Solutions</h3>
+<p>Our team collaborates with local stakeholders to design sustainable and impactful solutions tailored to each community.</p>
+</li>
+<li>
+<h3><span>04</span>Implement Projects</h3>
+<p> We execute our plans with precision, ensuring that every initiative is carried out effectively and efficiently.</p>
+</li>
+<li>
+<h3><span>04</span>Monitor and Evaluate</h3>
+<p> We continuously monitor our projects and evaluate their impact, making adjustments as needed to ensure lasting change.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="work-img">
+<img src="{% static 'img/work/blog14.jpg' %}" alt="Work">
+<img src="{% static 'img/work/blog3.jpg' %}" alt="Work">
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="gallery-area two pt-100 pb-70">
+<div class="container-fluid">
+<div class="section-title">
+<span class="sub-title">Our Gallery</span>
+<h2>Stories in Pictures</h2>
+<p>Explore our gallery to witness the impact of our work and the stories of those we help. Each image reflects the heart and soul of our mission.</p>
+</div>
+<div class="gallery-slider owl-theme owl-carousel">
+<div class="gallery-item">
+<a href="{% static 'img/gallery/gallery1.jpg' %}" data-lightbox="roadtrip">
+<img src="{% static 'img/gallery/gallery1.jpg' %}" alt="Gallery">
+<i class="icofont-eye"></i>
+</a>
+</div>
+<div class="gallery-item">
+<a href="{% static 'img/gallery/gallery2.jpg' %}" data-lightbox="roadtrip">
+<img src="{% static 'img/gallery/gallery2.jpg' %}" alt="Gallery">
+<i class="icofont-eye"></i>
+</a>
+</div>
+<div class="gallery-item">
+<a href="{% static 'img/gallery/gallery3.jpg' %}" data-lightbox="roadtrip">
+<img src="{% static 'img/gallery/gallery3.jpg' %}" alt="Gallery">
+<i class="icofont-eye"></i>
+</a>
+</div>
+<div class="gallery-item">
+<a href="{% static 'img/gallery/gallery4.jpg' %}" data-lightbox="roadtrip">
+<img src="{% static 'img/gallery/gallery4.jpg' %}" alt="Gallery">
+<i class="icofont-eye"></i>
+</a>
+</div>
+<div class="gallery-item">
+<a href="{% static 'img/gallery/gallery5.jpg' %}" data-lightbox="roadtrip">
+<img src="{% static 'img/gallery/gallery5.jpg' %}" alt="Gallery">
+<i class="icofont-eye"></i>
+</a>
+</div>
+<div class="gallery-item">
+<a href="{% static 'img/gallery/gallery6.jpg' %}" data-lightbox="roadtrip">
+<img src="{% static 'img/gallery/gallery6.jpg' %}" alt="Gallery">
+<i class="icofont-eye"></i>
+</a>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="team-area pb-70">
+<div class="container">
+<div class="section-title">
+<span class="sub-title">Volunteer</span>
+<h2>Meet our Volunteers</h2>
+<p>Our volunteers are the heart of our mission, dedicating their time, skills, and compassion to make a difference. Together, we work to uplift communities, support those in need, and drive meaningful change.</p>
+</div>
+<div class="row">
+<div class="col-sm-6 col-lg-4">
+<div class="team-item">
+<div class="top">
+<img src="{% static 'img/team/team1.jpg' %}" alt="Team">
+<ul>
+<li>
+<a href="#" target="_blank">
+<i class="icofont-facebook"></i>
+</a>
+</li>
+<li>
+<a href="#" target="_blank">
+<i class="icofont-twitter"></i>
+</a>
+</li>
+<li>
+<a href="#" target="_blank">
+<i class="icofont-youtube-play"></i>
+</a>
+</li>
+<li>
+<a href="#" target="_blank">
+<i class="icofont-instagram"></i>
+</a>
+</li>
+</ul>
+</div>
+<div class="bottom">
+<h3>Engr Peter</h3>
+<span>CEO & Founder</span>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-lg-4">
+<div class="team-item">
+<div class="top">
+<img src="{% static 'img/team/team2.jpg' %}" alt="Team">
+<ul>
+<li>
+<a href="#" target="_blank">
+<i class="icofont-facebook"></i>
+</a>
+</li>
+<li>
+<a href="#" target="_blank">
+<i class="icofont-twitter"></i>
+</a>
+</li>
+<li>
+<a href="#" target="_blank">
+<i class="icofont-youtube-play"></i>
+</a>
+</li>
+<li>
+<a href="#" target="_blank">
+<i class="icofont-instagram"></i>
+</a>
+</li>
+</ul>
+</div>
+<div class="bottom">
+<h3>Mrs Chioma</h3>
+<span>Manager</span>
+</div>
+</div>
+</div>
+<div class="col-sm-6 offset-sm-3 offset-lg-0 col-lg-4">
+<div class="team-item">
+<div class="top">
+<img src="{% static 'img/team/team3.jpg' %}" alt="Team">
+<ul>
+<li>
+<a href="#" target="_blank">
+<i class="icofont-facebook"></i>
+</a>
+</li>
+<li>
+<a href="#" target="_blank">
+<i class="icofont-twitter"></i>
+</a>
+</li>
+<li>
+<a href="#" target="_blank">
+<i class="icofont-youtube-play"></i>
+</a>
+</li>
+<li>
+<a href="#" target="_blank">
+<i class="icofont-instagram"></i>
+</a>
+</li>
+</ul>
+</div>
+<div class="bottom">
+<h3>Dr Joseph</h3>
+<span>Volunteer</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="blog-area three pt-100 pb-70">
+<div class="container">
+<div class="section-title">
+<span class="sub-title">Our Blog</span>
+<h2>Latest from our Blog</h2>
+<p>Explore our blog for the latest news, inspiring stories, and in-depth insights into our work and the communities we support. Stay informed and engaged with our mission.</p>
+</div>
+<div class="row">
+<div class="col-sm-6 col-lg-4">
+<div class="blog-item">
+<div class="top">
+<a href="{% url 'blog2' %}">
+<img src="{% static 'img/blog/blog2.jpg' %}" alt="Blog">
+</a>
+</div>
+<div class="bottom">
+<ul>
+<li>
+<i class="icofont-calendar"></i>
+<span>2 July, 2024</span>
+</li>
+<li>
+<i class="icofont-user-alt-3"></i>
+<span>By:</span>
+<a href="#">Harry</a>
+</li>
+</ul>
+<h3>
+<a href="{% url 'blog2' %}">The Power of Community: How Local Efforts Are Transforming Our City</a>
+</h3>
+<p>Communities thrive when residents feel connected and engaged with one another. In our city, grassroots organizations</p>
+<a class="blog-btn" href="{% url 'blog2' %}">Read More</a>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-lg-4">
+<div class="blog-item">
+<div class="top">
+<a href="{% url 'blog9' %}">
+<img src="{% static 'img/blog/blog9.jpg' %}" alt="Blog">
+</a>
+</div>
+<div class="bottom">
+<ul>
+<li>
+<i class="icofont-calendar"></i>
+<span>30 July, 2024</span>
+</li>
+<li>
+<i class="icofont-user-alt-3"></i>
+<span>By:</span>
+<a href="#">Harry</a>
+</li>
+</ul>
+<h3>
+<a href="{% url 'blog9' %}">Partnerships for Good: Collaborating with Businesses to Maximize Impact</a>
+</h3>
+<p>Collaboration between non-profits and businesses harnesses the strengths of both sectors to create innovative solutions</p>
+<a class="blog-btn" href="{% url 'blog9' %}">Read More</a>
+</div>
+</div>
+</div>
+<div class="col-sm-6 offset-sm-3 offset-lg-0 col-lg-4">
+<div class="blog-item">
+<div class="top">
+<a href="{% url 'blog11' %}">
+<img src="{% static 'img/blog/blog11.jpg' %}" alt="Blog">
+</a>
+</div>
+<div class="bottom">
+<ul>
+<li>
+<i class="icofont-calendar"></i>
+<span>17 June, 2024</span>
+</li>
+<li>
+<i class="icofont-user-alt-3"></i>
+<span>By:</span>
+<a href="#">Harry</a>
+</li>
+</ul>
+<h3>
+<a href="{% url 'blog11' %}">Health and Wellness Programs: Improving Lives through Medical Aid</a>
+</h3>
+<p>Access to quality healthcare is essential for individuals and communities to thrive. Unfortunately, many people around the world</p>
+<a class="blog-btn" href="{% url 'blog11' %}">Read More</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+{% endblock %}

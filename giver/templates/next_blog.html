@@ -1,0 +1,211 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+
+<div class="page-title-area title-bg-six">
+<div class="d-table">
+<div class="d-table-cell">
+<div class="container">
+<div class="title-item">
+<h2>Blog</h2>
+<ul>
+<li>
+<a href="index.html">Home</a>
+</li>
+<li>
+<span>Blog</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<section class="blog-area three ptb-100">
+<div class="container">
+<div class="row">
+<div class="col-sm-6 col-lg-4">
+<div class="blog-item">
+<div class="top">
+<a href="{% url 'blog7' %}">
+<img src="{% static 'img/blog/blog7.jpg' %}" alt="Blog">
+</a>
+</div>
+<div class="bottom">
+<ul>
+<li>
+<i class="icofont-calendar"></i>
+<span>25 July, 2024</span>
+</li>
+<li>
+<i class="icofont-user-alt-3"></i>
+<span>By:</span>
+<a href="#">Harry</a>
+</li>
+</ul>
+<h3>
+<a href="{% url 'blog7' %}">The Ripple Effect: How One Act of Kindness Can Inspire Many</a>
+</h3>
+<p>The ripple effect refers to the continuing and spreading results of an event or action. When it comes to kindness, one simple act can lead to a series of positive events</p>
+<a class="blog-btn" href="{% url 'blog7' %}">Read More</a>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-lg-4">
+<div class="blog-item">
+<div class="top">
+<a href="{% url 'blog8' %}">
+<img src="{% static 'img/blog/blog8.jpg' %}" alt="Blog">
+</a>
+</div>
+<div class="bottom">
+<ul>
+<li>
+<i class="icofont-calendar"></i>
+<span>28 July, 2024</span>
+</li>
+<li>
+<i class="icofont-user-alt-3"></i>
+<span>By:</span>
+<a href="#">Harry</a>
+</li>
+</ul>
+<h3>
+<a href="{% url 'blog8' %}">Innovation in Charity: How Technology is Transforming Non-Profits</a>
+</h3>
+<p>The non-profit sector has always been at the forefront of addressing social issues and supporting vulnerable communities.</p>
+<a class="blog-btn" href="{% url 'blog8' %}">Read More</a>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-lg-4">
+<div class="blog-item">
+<div class="top">
+<a href="{% url 'blog9' %}">
+<img src="{% static 'img/blog/blog11.jpg' %}" alt="Blog">
+</a>
+</div>
+<div class="bottom">
+<ul>
+<li>
+<i class="icofont-calendar"></i>
+<span>30 July, 2024</span>
+</li>
+<li>
+<i class="icofont-user-alt-3"></i>
+<span>By:</span>
+<a href="#">Harry</a>
+</li>
+</ul>
+<h3>
+<a href="{% url 'blog9' %}">Partnerships for Good: Collaborating with Businesses to Maximize Impact</a>
+</h3>
+<p>Collaboration between non-profits and businesses harnesses the strengths of both sectors to create innovative solutions to</p>
+<a class="blog-btn" href="{% url 'blog9' %}">Read More</a>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-lg-4">
+<div class="blog-item">
+<div class="top">
+<a href="{% url 'blog10' %}">
+<img src="{% static 'img/blog/blog10.jpg' %}" alt="Blog">
+</a>
+</div>
+<div class="bottom">
+<ul>
+<li>
+<i class="icofont-calendar"></i>
+<span>11 July, 2024</span>
+</li>
+<li>
+<i class="icofont-user-alt-3"></i>
+<span>By:</span>
+<a href="#">Harry</a>
+</li>
+</ul>
+<h3>
+<a href="{% url 'blog10' %}">Environmental Advocacy: Our Projects to Protect the Planet</a>
+</h3>
+<p>Reforestation is a key strategy in mitigating the impacts of deforestation and habitat loss. Through our reforestation initiatives, we aim to restore degraded landscapes</p>
+<a class="blog-btn" href="{% url 'blog10' %}">Read More</a>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-lg-4">
+<div class="blog-item">
+<div class="top">
+<a href="{% url 'blog11' %}">
+<img src="{% static 'img/blog/blog9.jpg' %}" alt="Blog">
+</a>
+</div>
+<div class="bottom">
+<ul>
+<li>
+<i class="icofont-calendar"></i>
+<span>17 June, 2024</span>
+</li>
+<li>
+<i class="icofont-user-alt-3"></i>
+<span>By:</span>
+<a href="#">Harry</a>
+</li>
+</ul>
+<h3>
+<a href="{% url 'blog11' %}">Health and Wellness Programs: Improving Lives through Medical Aid</a>
+</h3>
+<p>Access to medical aid is critical for ensuring that everyone, regardless of their socioeconomic status or geographic location</p>
+<a class="blog-btn" href="{% url 'blog11' %}">Read More</a>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-lg-4">
+<div class="blog-item">
+<div class="top">
+<a href="{% url 'blog12' %}">
+<img src="{% static 'img/blog/blog12.jpg' %}" alt="Blog">
+</a>
+</div>
+<div class="bottom">
+<ul>
+<li>
+<i class="icofont-calendar"></i>
+<span>18 June, 2024</span>
+</li>
+<li>
+<i class="icofont-user-alt-3"></i>
+<span>By:</span>
+<a href="#">Harry</a>
+</li>
+</ul>
+<h3>
+<a href="{% url 'blog12' %}">Creative Fundraising Ideas: How You Can Help Us Make a Difference</a>
+</h3>
+<p>Hosting a fundraising event is a fun and effective way to raise money for our organization. You can organize a charity gala</p>
+<a class="blog-btn" href="{% url 'blog12' %}">Read More</a>
+</div>
+</div>
+</div>
+</div>
+<div class="pagination-area">
+<ul>
+<li>
+<a href="{% url 'blog' %}">Prev</a>
+</li>
+<li>
+<a href="{% url 'blog' %}">1</a>
+</li>
+<li>
+<a class="active" href="#">2</a>
+</li>
+</ul>
+</div>
+</div>
+</section>
+
+
+{% endblock %}

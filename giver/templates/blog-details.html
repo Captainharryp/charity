@@ -1,0 +1,148 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+
+<div class="page-title-area title-bg-three">
+<div class="d-table">
+<div class="d-table-cell">
+<div class="container">
+<div class="title-item">
+<h2>Donation Details</h2>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="donation-details-area ptb-100">
+<div class="container">
+<div class="row">
+<div class="col-lg">
+<div class="details-item">
+<div class="details-payment">
+<h3>Select payment method</h3>
+<form id="donationForm"
+      data-general-url="{% url 'about' %}"
+      data-paypal-url="{% url 'terms' %}"
+      data-bitcoin-url="{% url 'privacy' %}">
+    <div class="form-radio-area">
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Paypal</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Debit Card</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+            <label class="form-check-label" for="inlineRadio3">Credit Card</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+            <label class="form-check-label" for="inlineRadio4">Bitcoin</label>
+        </div>
+    </div>
+
+    <div class="form-input-area" id="generalForm">
+        <div class="form-group">
+            <label>
+                <i class="icofont-user-alt-3"></i>
+            </label>
+            <input type="text" class="form-control" placeholder="First name">
+        </div>
+        <div class="form-group">
+            <label>
+                <i class="icofont-user-alt-3"></i>
+            </label>
+            <input type="text" class="form-control" placeholder="Last name">
+        </div>
+        <div class="form-group">
+            <label>
+                <i class="icofont-ui-email"></i>
+            </label>
+            <input type="email" class="form-control" placeholder="Email">
+        </div>
+        <div class="form-group">
+            <label>
+                <i class="icofont-ui-call"></i>
+            </label>
+            <input type="text" class="form-control" placeholder="Phone number">
+        </div>
+        <div class="form-group">
+            <label>
+                <i class="icofont-dollar"></i>
+            </label>
+            <input type="text" class="form-control" placeholder="$100.00">
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn common-btn" id="generalSubmit" >Donate Now</button>
+        </div>
+    </div>
+
+    <div class="form-input-area hidden" id="paypalForm">
+        <div class="form-group">
+            <label>
+                <i class="icofont-user-alt-3"></i>
+            </label>
+            <input type="text" class="form-control" placeholder="Full name">
+        </div>
+        <div class="form-group">
+            <label>
+                <i class="icofont-paypal"></i>
+            </label>
+            <input type="email" class="form-control" placeholder="PayPal Email">
+        </div>
+        <div class="form-group">
+            <label>
+                <i class="icofont-dollar"></i>
+            </label>
+            <input type="text" class="form-control" placeholder="Amount in USD">
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn common-btn" id="paypalSubmit">Donate with PayPal</button>
+        </div>
+    </div>
+
+    <div class="form-input-area hidden" id="bitcoinForm">
+        <div class="form-group">
+            <label>
+                <i class="icofont-bitcoin"></i>
+            </label>
+            <input type="text" class="form-control" placeholder="Bitcoin Address">
+        </div>
+        <div class="form-group">
+            <label>
+                <i class="icofont-dollar"></i>
+            </label>
+            <input type="text" class="form-control" placeholder="Amount in BTC">
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn common-btn" id="bitcoinSubmit">Donate with Bitcoin</button>
+        </div>
+    </div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
